@@ -1,0 +1,1107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>India's Development Equation</title>
+    <meta
+      name="description"
+      content="An interactive policy note about India's path to high-income status, using growth arithmetic, demographics, capital formation, labour, and productivity."
+    >
+    <script src="../../assets/lfe-theme.js"></script>
+    <link rel="stylesheet" href="../../assets/lfe.css">
+    <link rel="stylesheet" href="../../assets/lfe-topics.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to the note</a>
+
+    <header class="site-bar"><div class="bar-inner">
+      <a class="wordmark" href="../../index.html">Learn For Everybody</a>
+      <nav aria-label="Topics"><a href="../../econofai/index.html">Economics of AI</a><a href="../../power/index.html">Power</a><a href="../../minds/index.html">Minds</a></nav>
+      <button class="theme-toggle icon-toggle" id="themeToggle" type="button" aria-label="Dark mode"><span aria-hidden="true">◐</span><span class="tip" id="themeLabel" aria-hidden="true">Dark mode</span></button>
+    </div></header>
+    <div class="topic-bar"><div class="bar-inner"><a class="topic-name" href="../index.html">Experiments</a><nav aria-label="Experiments"><a href="../index.html">All experiments</a><a href="../india-economy/index.html">India economy</a><a href="index.html" aria-current="page">India development</a><a href="../run-with-it/index.html">Run with it</a></nav></div></div>
+
+    <header class="site-shell masthead">
+      <h1>India's Development Equation</h1>
+      <p class="lede">
+        A self-guided explainer on the arithmetic behind high-income status,
+        the demographic clock, and the labour-capital-productivity engine India
+        has to keep running.
+      </p>
+      <p class="keyline" aria-label="Baseline result">
+        <span id="heroLabel">Baseline crossing year</span>
+        <strong id="heroYear">2047</strong> &nbsp;&middot;&nbsp;
+        <span id="heroSubcopy">with 9.1% USD per-person growth</span>
+      </p>
+    </header>
+
+    <nav class="tabbar site-shell" aria-label="Policy note sections">
+      <button class="tab-button is-active" type="button" data-tab-target="source" aria-selected="true">
+        Source
+      </button>
+      <button class="tab-button" type="button" data-tab-target="rankings" aria-selected="false">
+        Rankings
+      </button>
+      <button class="tab-button" type="button" data-tab-target="primer" aria-selected="false">
+        Primer
+      </button>
+      <button class="tab-button" type="button" data-tab-target="chautauqua" aria-selected="false">
+        Chautauqua
+      </button>
+      <button class="ghost-button" id="openEquations" type="button">
+        Show the arithmetic
+      </button>
+    </nav>
+
+    <main id="main">
+      <section class="tab-panel is-active" id="source" data-tab-panel="source">
+        <div class="site-shell source-layout">
+          <section class="source-lead">
+            <h2>The article is the spine. This site is the bridge.</h2>
+            <p>
+              Neelkanth Mishra's piece is a crisp macro primer: it takes an
+              emotionally loaded ambition, "Viksit Bharat", and turns it into a
+              small set of measurable variables. That is exactly the kind of
+              article students should learn to read with a textbook open nearby.
+            </p>
+          </section>
+
+          <section class="article-source-card">
+            <div>
+                            <h3>How rich must Indians be for India to be called developed?</h3>
+              <p>
+                Published on July 2, 2026. Read it at
+                <a href="https://tessellatum.in/?p=625&utm_source=rss&utm_medium=rss&utm_campaign=how-rich-must-indians-be-for-india-to-be-called-developed" target="_blank" rel="noreferrer">Tessellatum</a>
+                or the
+                <a href="https://timesofindia.indiatimes.com/india/how-rich-must-indians-be-for-india-to-be-called-developed/articleshow/132126921.cms" target="_blank" rel="noreferrer">Times of India</a>.
+              </p>
+            </div>
+            <blockquote>
+              “…demographic changes are faster than economic growth.”
+            </blockquote>
+          </section>
+
+          <section class="why-ai-section">
+                        <h3>Because the hard part is moving from chapter to country.</h3>
+            <p>
+              Students often learn the pieces separately: GDP, inflation,
+              exchange rates, growth accounting, labour supply, capital
+              deepening, productivity. Then they open a newspaper and the pieces
+              arrive all at once. The mental furniture is there, but the room is
+              dark.
+            </p>
+            <p>
+              What AI makes easier now is not "summarize article, produce answer".
+              The useful thing is to build a small teaching instrument around a
+              good article: show the equation, let the reader move the inputs,
+              map each policy lever back to the theory, and keep the real-world
+              Indian context in view. Done well, this is not a substitute for the
+              textbook. It is a bridge back into it.
+            </p>
+          </section>
+
+          <section class="reading-guide" aria-label="Suggested reading guide">
+                        <h3>Read the article with these chapters in mind.</h3>
+            <div class="reading-grid">
+              <article class="reading-card">
+                <span>Textbook theory</span>
+                <h4>Mankiw: Production and Growth</h4>
+                <p>
+                  The “Production and Growth” chapter, Chapter 25 of the full
+                  <em>Principles of Economics</em> in recent editions; numbering
+                  differs in the macroeconomics volumes. Use it for capital,
+                  productivity, and the sources of long-run living standards.
+                </p>
+              </article>
+              <article class="reading-card">
+                <span>Open economy arithmetic</span>
+                <h4>Mankiw: GDP, inflation, and exchange rates</h4>
+                <p>
+                  Pair the growth chapter with the chapters on national income,
+                  inflation, and open-economy macro. Those are the ingredients
+                  behind the calculator's nominal-dollar conversion.
+                </p>
+              </article>
+              <article class="reading-card">
+                <span>Intermediate macro</span>
+                <h4>Dornbusch, Fischer & Startz: Growth and Accumulation</h4>
+                <p>
+                  In many editions, the early growth chapters cover capital
+                  accumulation, labour, productivity, and policy. This site is a
+                  live example of those tools applied to India.
+                </p>
+              </article>
+              <article class="reading-card">
+                <span>Free parallel reading</span>
+                <h4>OpenStax: Economic Growth</h4>
+                <p>
+                  Read
+                  <a href="https://openstax.org/books/principles-macroeconomics-3e/pages/7-introduction-to-economic-growth" target="_blank" rel="noreferrer">Principles of Macroeconomics 3e, Chapter 7</a>
+                  for labour productivity, components of growth, and convergence.
+                </p>
+              </article>
+              <article class="reading-card">
+                <span>Free parallel reading</span>
+                <h4>OpenStax: Exchange Rates</h4>
+                <p>
+                  Read
+                  <a href="https://openstax.org/books/principles-economics-3e/pages/29-introduction-to-exchange-rates-and-international-capital-flows" target="_blank" rel="noreferrer">Principles of Economics 3e, Chapter 29</a>
+                  for the exchange-rate channel that turns rupee income into
+                  dollar income.
+                </p>
+              </article>
+              <article class="reading-card">
+                <span>How to use this site</span>
+                <h4>Then return to the calculator</h4>
+                <p>
+                  Change one assumption at a time. Ask what policy lever would
+                  move it, which textbook chapter explains it, and what Indian
+                  institution would have to make it real.
+                </p>
+              </article>
+            </div>
+          </section>
+
+          <section class="discussion-strip source-next">
+            <div>
+              <p class="provocation">
+                Start with the article. Then look at the country ladder before
+                opening the calculator.
+              </p>
+            </div>
+            <button class="ghost-button" type="button" data-tab-target="rankings">
+              See the country ladder
+            </button>
+          </section>
+        </div>
+      </section>
+
+      <section class="tab-panel" id="rankings" data-tab-panel="rankings">
+        <div class="site-shell rankings-layout">
+          <section class="rankings-lead">
+            <h2>Absolute growth can look fine while the ranking barely moves.</h2>
+            <p>
+              For students, this is the cleanest way to see the difference
+              between growing and catching up. India has grown. But China and
+              Vietnam show what it looks like when nominal dollar income per
+              person climbs fast enough to move a country through the global
+              league table.
+            </p>
+          </section>
+
+          <section class="rank-chart-panel" aria-label="GDP per capita country rankings over time">
+            <div class="rank-chart-header">
+              <div>
+                                <h3>GDP per person, current US dollars</h3>
+              </div>
+              <div class="rank-mode-switch" role="tablist" aria-label="Ranking chart mode">
+                <button class="mode-button is-active" type="button" data-rank-mode="rank" role="tab" aria-selected="true">
+                  Rank
+                </button>
+                <button class="mode-button" type="button" data-rank-mode="index" role="tab" aria-selected="false">
+                  1990 = 100
+                </button>
+              </div>
+            </div>
+
+            <div class="rank-controls">
+              <button class="secondary-button" type="button" id="rankPlay">Play the race</button>
+              <input type="range" min="1990" max="2024" step="1" value="2024" id="rankScrub" aria-label="Chart year">
+              <output class="rank-year-readout" id="rankYearOut">2024</output>
+            </div>
+
+            <noscript><p class="nojs-note">The interactive chart needs JavaScript. In short: from 1990 to 2024, China rose from #172 to #83 in GDP per person, Vietnam from #191 to #130, and India from #165 to #155.</p></noscript>
+            <svg id="rankChart" viewBox="0 0 820 430" role="img" aria-labelledby="rankChartTitle rankChartDesc">
+              <title id="rankChartTitle">China, Vietnam, and India in the GDP per capita ranking</title>
+              <desc id="rankChartDesc">
+                A line chart comparing China, Vietnam, and India by nominal GDP per capita rank and index since 1990.
+              </desc>
+            </svg>
+            <p class="chart-caption" id="rankCaption">
+              Ranks are computed among World Bank countries and economies with non-missing data in each year.
+            </p>
+          </section>
+
+          <div class="rank-summary-grid" aria-label="Country movement summary">
+            <article class="rank-summary-card china">
+              <span>China</span>
+              <strong>#172 to #83</strong>
+              <p>
+                From about $319 per person in 1990 to about $13,293 in 2024:
+                a roughly 42x rise in nominal dollar GDP per person.
+              </p>
+            </article>
+            <article class="rank-summary-card vietnam">
+              <span>Vietnam</span>
+              <strong>#191 to #130</strong>
+              <p>
+                From about $99 per person in 1990 to about $4,717 in 2024:
+                a roughly 48x rise, starting from a much lower base.
+              </p>
+            </article>
+            <article class="rank-summary-card india">
+              <span>India</span>
+              <strong>#165 to #155</strong>
+              <p>
+                From about $371 per person in 1990 to about $2,592 in 2024:
+                meaningful progress, but a much slower climb in the table.
+              </p>
+            </article>
+          </div>
+
+          <section class="sample-note">
+                        <h3>The article says India ranks #140. This chart says #155. Both are right.</h3>
+            <p>
+              Mishra ranks India 140th of 196 nations, with China at 73 and
+              Vietnam at 122, most likely on IMF figures for 2025. This chart
+              ranks among the 200 World Bank countries and economies with 2024
+              data — a sample that also includes non-nation economies such
+              as Hong Kong, Macao, and Bermuda, most of them rich, which pushes
+              every developing country a dozen or so rungs down. A rank is a
+              claim about a sample. Whenever two rankings disagree, the first
+              question is not "who is lying?" but "ranked among whom, measured
+              in which year?"
+            </p>
+          </section>
+
+          <section class="rank-teaching-note">
+                        <h3>The ladder is relative; the calculator is absolute.</h3>
+            <p>
+              A rank chart is not a moral scoreboard, and it is not adjusted for
+              purchasing power. Its value is simpler: it shows whether a country
+              is moving past others in the same nominal-dollar race used by the
+              high-income classification. If everyone is climbing, climbing is
+              not enough. You have to climb faster. The club India wants to join
+              had 87 members in the World Bank's July 2026 list — about 40% of
+              the economies it classifies — and the entry fee rises every year.
+            </p>
+            <p>
+              Source:
+              <a href="https://data.worldbank.org/indicator/NY.GDP.PCAP.CD" target="_blank" rel="noreferrer">
+                World Bank, GDP per capita (current US$), NY.GDP.PCAP.CD
+              </a>.
+              Ranks are among World Bank countries and economies with available
+              data in that year, so the sample changes over time. Ten economies with 2020 data, nine of them richer than India, have no 2024 figure yet; about nine of India's 14-place gain from 2020 to 2024 comes from them dropping out, not from overtaking anyone.
+            </p>
+            <button class="ghost-button" type="button" data-tab-target="primer">
+              Open the primer
+            </button>
+          </section>
+        </div>
+      </section>
+
+      <section class="tab-panel" id="primer" data-tab-panel="primer">
+        <div class="site-shell note-grid">
+          <article class="essay-flow" aria-label="Primer">
+            <section class="story-step" data-stage="target">
+                            <h2><span class="step-num">1</span> The finish line is not vibes. It is a dollar line.</h2>
+              <p>
+                In this framework, "developed" means crossing the World Bank
+                high-income threshold. Around the article's baseline, that line
+                is roughly <strong>$14,000 of nominal GDP per person</strong>.
+                Nominal dollars matter because the classification is written in
+                nominal dollars. PPP still matters for lived welfare, but it is
+                not the scoreboard being used here.
+              </p>
+              <p>
+                That distinction is useful. PPP tells us why a haircut in Pune
+                can feel cheaper than a haircut in Palo Alto. Nominal GDP tells
+                us how far India is from the income category the world uses for
+                high-income countries. Comfort is one thing; discipline is
+                another.
+              </p>
+              <div class="aside-note">
+                <h3 class="box-title">What the line actually is</h3>
+                <p>
+                  Strictly, the World Bank classifies countries by
+                  <strong>GNI per person, Atlas method</strong>: GNI adds net
+                  income from abroad to GDP, and the Atlas method smooths three
+                  years of exchange rates. For India the two measures sit within
+                  a few percent of each other, so this model follows the article
+                  in using GDP per person at ordinary exchange rates.
+                </p>
+                <p>
+                  The line itself: set at $6,000 in 1987, raised to
+                  <strong>$14,375</strong> in the July 2026 update — about 2.3%
+                  a year, tracking rich-country inflation (the article rounds
+                  this to 2%, which is the threshold-growth slider's default).
+                  In that July 2026 list, 87 economies — about 40% of those
+                  classified — were above it.
+                  The calculator starts from the article's rounder $14,000;
+                  start it from $14,375 instead and the baseline crosses a year
+                  later, in 2048.
+                </p>
+              </div>
+            </section>
+
+            <section class="story-step" data-stage="arithmetic">
+                            <h2><span class="step-num">2</span> Small changes in growth rates become large changes in dates.</h2>
+              <p>
+                The calculator starts from the article's spine: high-income by
+                2047 needs about <strong>9% annual per-person GDP growth in USD
+                terms</strong>. The controls below let you change the inputs
+                behind that number: real GDP growth, domestic inflation, rupee
+                depreciation, population growth, and the growth of the
+                high-income threshold itself.
+              </p>
+              <p>
+                The graph is intentionally spare. One line is India's nominal
+                income per person in dollars. The other line is the high-income
+                threshold. The crossing point is the moment the first line catches
+                the second.
+              </p>
+              <div class="aside-note">
+                <h3 class="box-title">Check the model against the article</h3>
+                <p>
+                  Mishra prints a ladder: 9% dollar growth per person crosses in
+                  2047, 8% in 2051, 7% in 2055, 6% in 2062. Reproduce it here:
+                  hold inflation at 4%, depreciation at 2%, population at 0.5%,
+                  and set real growth to 7.5, 6.5, 5.5, then 4.5. The model
+                  lands on 2047, 2051, 2056, 2063. The last two drift a year
+                  because the article's rungs do not share one starting point:
+                  worked backwards, they imply 2025 incomes between about $3,170
+                  and $3,370, and no single start reproduces all four. If a
+                  starting assumption that small can move a national deadline by
+                  a year, that is worth a minute of class time.
+                </p>
+                <p>
+                  One number to argue with: worked backwards, the article's
+                  ladder starts India near $3,250 per person in 2025. The World
+                  Bank's measured 2024 figure is about $2,600 — the Rankings tab
+                  uses it — and the IMF's April 2026 estimate for 2025 is about
+                  $2,700. Open Base assumptions and try $2,700: the same 9% path
+                  slips about three years, to 2050. Starting points are
+                  assumptions too.
+                </p>
+              </div>
+            </section>
+
+            <section class="story-step" data-stage="clock">
+                            <h2><span class="step-num">3</span> Demographics turn "eventually" into a bad plan.</h2>
+              <p>
+                The article's sharpest warning is not that India cannot become
+                rich. It is that the easy-growth window is not waiting politely.
+                Fertility is falling, the median age is rising, and the labour
+                channel becomes less forgiving once the working-age share stops
+                helping.
+              </p>
+              <p>
+                That is why the shaded band appears on the chart. It marks the
+                years after India's median age crosses 40 — the point past which,
+                in the article's reading of the cross-country record, growth has
+                tended to slow substantially as dependency ratios rise. The
+                current projection puts that crossing around 2053; the article
+                warns it may come sooner because fertility is falling faster than
+                expected. The Base assumptions box lets you drag the year and
+                watch how much of the journey ends up inside the band. It is not
+                a cliff. It is a reminder that the same GDP target gets harder
+                when labour-force growth stops doing some of the work for you.
+              </p>
+              <div class="mechanism-note">
+                <h3 class="box-title">Why the labour channel tightens</h3>
+                <div class="inline-identity">
+                  <span>Income per person</span>
+                  <strong>=</strong>
+                  <span>output per worker</span>
+                  <strong>x</strong>
+                  <span>workers per person</span>
+                </div>
+                <p>
+                  When a country is young, more people enter working age each
+                  year. If jobs exist, the economy gets a tailwind: more workers
+                  per dependent, more household income, more saving, more demand,
+                  and more tax capacity. When fertility falls and ageing begins,
+                  that tailwind weakens. The country can still grow, but it has
+                  to get more growth from each worker rather than from simply
+                  having more workers.
+                </p>
+                <p>
+                  That is the uncomfortable arithmetic behind the article's
+                  urgency. If <strong>workers per person</strong> stops rising,
+                  <strong>output per worker</strong> has to carry more of the
+                  burden. That means capital per worker, technology, skills,
+                  cities, and institutions must do more work.
+                </p>
+                <div class="denominator-note">
+                  <h3>Fewer people is not automatically richer people.</h3>
+                  <p>
+                    It is tempting to treat per-capita GDP as a denominator
+                    trick: hold output fixed, divide by fewer people, and the
+                    average rises. But a country is not a spreadsheet with
+                    passive cells. People are also workers, savers, taxpayers,
+                    entrepreneurs, caregivers, and consumers.
+                  </p>
+                  <p>
+                    A kitchen version is clearer: fewer plates help only if the
+                    kitchen keeps making the same amount of food. If some cooks
+                    also leave, and more people at the table need care, food per
+                    plate may not rise at all. That is why the serious question
+                    is not just population growth. It is whether India can raise
+                    output per worker while keeping enough workers per person.
+                  </p>
+                </div>
+              </div>
+            </section>
+
+            <section class="story-step" data-stage="engine">
+                            <h2><span class="step-num">4</span> Output grows when labour, capital, and productivity move together.</h2>
+              <p>
+                Mishra's framework is a useful discipline: GDP growth comes
+                from labour input, capital formation, and productivity. In a
+                simple production story, <strong>Y</strong> is output,
+                <strong>L</strong> is the number of workers, <strong>N</strong>
+                is the population, <strong>K</strong> is capital, and
+                <strong>K/L</strong> is capital per worker. Income rises when
+                more people work, each worker has more capital, and the whole
+                system gets better at using both.
+              </p>
+              <p>
+                Female workforce participation maps to the labour channel.
+                Housing, infrastructure, and MSME credit map to capital
+                deepening. Technology, trust, judiciary capacity, and risk
+                appetite map to productivity. None is decorative.
+              </p>
+
+              <div class="engine-board" aria-label="Production engine">
+                <div class="engine-copy">
+                                    <h3>Y per person comes from L, K/L, and A.</h3>
+                  <p>
+                    The sliders below are not independent wishes. Each stands for
+                    a real mechanism: how many people work, how much capital each
+                    worker can use, and how effectively the system turns work and
+                    capital into output. Each is measured in
+                    <strong>percentage points of annual GDP growth
+                    contributed</strong> — so the capital slider is not how fast
+                    machines pile up, but how much of each year's growth that
+                    piling-up delivers. The defaults are generous: closer to
+                    India's best investment years than to its average.
+                  </p>
+                </div>
+
+                <svg class="engine-diagram" viewBox="0 0 680 280" role="img" aria-labelledby="engineTitle engineDesc">
+                  <title id="engineTitle">Labour, capital per worker, and productivity feeding income</title>
+                  <desc id="engineDesc">
+                    A flow diagram showing labour input, capital per worker, and productivity feeding income per person.
+                  </desc>
+                  <g class="engine-node node-l">
+                    <rect x="24" y="34" width="160" height="58" rx="8"></rect>
+                    <text x="104" y="59">L</text>
+                    <text x="104" y="78">workers</text>
+                  </g>
+                  <g class="engine-node node-k">
+                    <rect x="24" y="112" width="160" height="58" rx="8"></rect>
+                    <text x="104" y="137">K/L</text>
+                    <text x="104" y="156">capital per worker</text>
+                  </g>
+                  <g class="engine-node node-a">
+                    <rect x="24" y="190" width="160" height="58" rx="8"></rect>
+                    <text x="104" y="215">A</text>
+                    <text x="104" y="234">productivity</text>
+                  </g>
+                  <path class="engine-arrow" d="M190 63 C300 63 330 108 430 132"></path>
+                  <path class="engine-arrow" d="M190 141 C300 141 330 141 430 141"></path>
+                  <path class="engine-arrow" d="M190 219 C300 219 330 174 430 150"></path>
+                  <g class="engine-output">
+                    <rect x="442" y="86" width="210" height="112" rx="8"></rect>
+                    <text x="547" y="124">Y / person</text>
+                    <text x="547" y="151">income</text>
+                    <text x="547" y="174">the thing that must rise</text>
+                  </g>
+                </svg>
+
+                <div class="engine-equation">
+                  <span>Y / N</span>
+                  <strong>=</strong>
+                  <span>L / N</span>
+                  <strong>x</strong>
+                  <span>A f(K / L)</span>
+                </div>
+
+                <div class="engine-explainers">
+                  <article>
+                    <h4>L / N: workers per person</h4>
+                    <p>
+                      This rises when more adults, especially women, can enter
+                      paid work safely and productively. It falls when ageing
+                      raises the number of dependents per worker.
+                    </p>
+                  </article>
+                  <article>
+                    <h4>K / L: capital per worker</h4>
+                    <p>
+                      This rises when each worker has more useful capital:
+                      machines, roads, power, housing, credit, logistics, and
+                      digital rails. A worker with better tools can produce more.
+                    </p>
+                  </article>
+                  <article>
+                    <h4>A: productivity</h4>
+                    <p>
+                      This rises when technology, skills, management, trust, and
+                      state capacity let the same labour and capital produce more
+                      value. It is where institutions quietly enter the equation.
+                    </p>
+                  </article>
+                  <article>
+                    <h4>f( ): the production function</h4>
+                    <p>
+                      f turns capital per worker into output per worker. It
+                      rises but flattens: the tenth machine adds less than the
+                      first. That diminishing return is why capital alone cannot
+                      finish the climb, and why A has to carry more of the load
+                      the richer India gets.
+                    </p>
+                  </article>
+                </div>
+
+                <div class="engine-controls">
+                  <label class="control">
+                    <span>Worker-share effect</span>
+                    <output id="labourOut">0.8 pts</output>
+                    <input type="range" min="-0.5" max="2.5" step="0.1" value="0.8" data-engine-control="labour">
+                    <small class="control-help">
+                      Think labour-force participation, female employment,
+                      commuting safety, care work, and age structure.
+                    </small>
+                  </label>
+                  <label class="control">
+                    <span>Capital deepening</span>
+                    <output id="capitalOut">3.7 pts</output>
+                    <input type="range" min="1.5" max="5.5" step="0.1" value="3.7" data-engine-control="capital">
+                    <small class="control-help">
+                      Think MSME credit, housing supply, infrastructure,
+                      factories, power, and capital markets.
+                    </small>
+                  </label>
+                  <label class="control">
+                    <span>Productivity</span>
+                    <output id="productivityOut">2.5 pts</output>
+                    <input type="range" min="0.5" max="4.5" step="0.1" value="2.5" data-engine-control="productivity">
+                    <small class="control-help">
+                      Think technology, skills, competition, management quality,
+                      legal speed, trust, and policy risk appetite.
+                    </small>
+                  </label>
+                </div>
+                <div class="engine-total">
+                  <span>Illustrative real GDP growth from this engine</span>
+                  <strong id="engineRealGrowth">7.5%</strong>
+                  <p class="engine-breakdown" id="engineBreakdown"></p>
+                  <p class="apply-note" id="applyNote" hidden></p>
+                  <button class="secondary-button" type="button" id="applyEngine">Use this in calculator</button>
+                </div>
+              </div>
+            </section>
+
+            <section class="story-step" data-stage="bottlenecks">
+                            <h2><span class="step-num">5</span> The problem is not one miracle lever. It is simultaneity.</h2>
+              <p>
+                A serious path to high-income status needs several large things
+                not to fail at the same time: more women in paid work, faster
+                capital formation, better credit plumbing, more urban land and
+                infrastructure, indigenous technology, higher trust, and more
+                institutional risk appetite.
+              </p>
+              <p>
+                That is the policy note in one sentence: India is not merely
+                chasing a number. It is trying to make a production machine
+                operate at high speed before the demographic tailwind fades.
+              </p>
+            </section>
+          </article>
+
+          <aside class="model-column" aria-label="Interactive growth model">
+            <section class="model-board">
+              <div class="stage-strip" aria-label="Current chapter">
+                <span class="stage-pill is-active" data-stage-pill="target">Target</span>
+                <span class="stage-pill" data-stage-pill="arithmetic">Arithmetic</span>
+                <span class="stage-pill" data-stage-pill="clock">Clock</span>
+                <span class="stage-pill" data-stage-pill="engine">Engine</span>
+              </div>
+
+              <div class="result-row" aria-live="polite">
+                <div>
+                  <span class="metric-label">Crossing year</span>
+                  <strong class="metric-value" id="crossingYear">2047</strong>
+                </div>
+                <div>
+                  <span class="metric-label">USD per-person growth</span>
+                  <strong class="metric-value" id="usdGrowth">9.1%</strong>
+                </div>
+                <div>
+                  <span class="metric-label">Current distance</span>
+                  <strong class="metric-value" id="distanceMultiple">4.3x</strong>
+                </div>
+              </div>
+
+              <figure class="chart-wrap">
+                <noscript><p class="nojs-note">The calculator needs JavaScript. At the baseline (7.5% real growth, 4% inflation, 2% rupee depreciation, 0.5% population growth) India crosses the high-income line in 2047; at 6.5%, 5.5% and 4.5% real growth, in 2051, 2056 and 2063.</p></noscript>
+                <svg id="growthChart" viewBox="0 0 760 430" role="img" aria-labelledby="chartTitle chartDesc">
+                  <title id="chartTitle">India crossing the high-income threshold over time</title>
+                  <desc id="chartDesc">
+                    A line chart comparing projected GDP per person in nominal US dollars with the moving high-income threshold.
+                  </desc>
+                </svg>
+                <figcaption id="chartCaption">
+                  Baseline: 7.5% real GDP growth, 4.0% inflation, 2.0% rupee depreciation,
+                  and 0.5% population growth.
+                </figcaption>
+              </figure>
+
+              <form class="control-grid" id="modelControls">
+                <label class="control">
+                  <span>Real GDP growth</span>
+                  <output id="realGrowthOut">7.5%</output>
+                  <input type="range" min="4" max="10" step="0.1" value="7.5" data-model-control="realGrowth">
+                </label>
+                <label class="control">
+                  <span>Inflation</span>
+                  <output id="inflationOut">4.0%</output>
+                  <input type="range" min="1" max="7" step="0.1" value="4" data-model-control="inflation">
+                </label>
+                <label class="control">
+                  <span>Rupee depreciation</span>
+                  <output id="depreciationOut">2.0%</output>
+                  <input type="range" min="0" max="5" step="0.1" value="2" data-model-control="depreciation">
+                </label>
+                <label class="control">
+                  <span>Population growth</span>
+                  <output id="populationOut">0.5%</output>
+                  <input type="range" min="-0.3" max="1.2" step="0.1" value="0.5" data-model-control="population">
+                </label>
+                <label class="control">
+                  <span>Threshold growth</span>
+                  <output id="thresholdGrowthOut">2.0%</output>
+                  <input type="range" min="0" max="4" step="0.1" value="2" data-model-control="thresholdGrowth">
+                </label>
+              </form>
+
+              <label class="taper-toggle">
+                <input type="checkbox" id="taperToggle">
+                <span>
+                  <strong>Taper growth near the frontier.</strong>
+                  The article warns that constant growth is optimistic: frontier
+                  economies grow under 2.5%. This fades real growth from your
+                  slider toward 2.5% as India closes the income gap. The dotted
+                  line keeps the never-tapering path for contrast.
+                </span>
+              </label>
+
+              <details class="assumptions">
+                <summary>Base assumptions</summary>
+                <div class="number-grid">
+                  <label>
+                    <span>Base year</span>
+                    <input type="number" min="2020" max="2030" value="2025" data-model-number="baseYear">
+                  </label>
+                  <label>
+                    <span>India GDP/person, USD</span>
+                    <input type="number" min="1500" max="6000" step="50" value="3250" data-model-number="baseGdpPc">
+                  </label>
+                  <label>
+                    <span>High-income line, USD</span>
+                    <input type="number" min="10000" max="22000" step="any" value="14000" data-model-number="threshold">
+                  </label>
+                  <label>
+                    <span>Median age 40 year</span>
+                    <input type="number" min="2040" max="2058" value="2053" data-model-number="medianAgeYear">
+                  </label>
+                </div>
+              </details>
+
+              <div class="model-actions">
+                <button class="secondary-button" type="button" id="resetModel">Reset baseline</button>
+                <button class="secondary-button" type="button" id="openEquationsInline">Explain equations</button>
+              </div>
+            </section>
+          </aside>
+        </div>
+      </section>
+
+      <section class="tab-panel" id="chautauqua" data-tab-panel="chautauqua">
+        <div class="site-shell chautauqua-layout">
+          <section class="chautauqua-lead">
+            <h2>The same model, with sharper questions.</h2>
+            <p>
+              The primer teaches the machine. This tab asks what kind of society
+              can operate it. Use these prompts as a discussion starter, a talk
+              outline, or a seed for wiki links.
+            </p>
+          </section>
+
+          <div class="question-grid">
+            <article class="question-card">
+              <span>01</span>
+              <h3>Is developed an income category or an institutional condition?</h3>
+              <p>
+                The World Bank line is a useful scoreboard. But a society crosses
+                it by building institutions that let capital, labour, and ideas
+                combine repeatedly without heroic improvisation.
+              </p>
+              <p class="q-read"><span>Read</span>
+                <a href="https://en.wikipedia.org/wiki/Why_Nations_Fail" target="_blank" rel="noreferrer">Acemoglu &amp; Robinson, <em>Why Nations Fail</em></a>
+              </p>
+            </article>
+            <article class="question-card">
+              <span>02</span>
+              <h3>Why does PPP soothe while nominal GDP disciplines?</h3>
+              <p>
+                PPP reminds us that many services are cheaper in India. Nominal
+                GDP reminds us that imports, technology, strategic capacity, and
+                global comparison are priced in harder currency.
+              </p>
+              <p class="q-read"><span>Read</span>
+                <a href="https://www.economist.com/big-mac-index" target="_blank" rel="noreferrer">The Economist's Big Mac index</a>
+              </p>
+            </article>
+            <article class="question-card">
+              <span>03</span>
+              <h3>Is women's work India's largest suppressed macro variable?</h3>
+              <p>
+                Low female workforce participation is not only a social question.
+                It is a labour-input question, a household-income question, and a
+                demand question.
+              </p>
+              <p class="q-read"><span>Read</span>
+                <a href="https://www.ggd.world/" target="_blank" rel="noreferrer">Alice Evans, <em>The Great Gender Divergence</em></a>
+              </p>
+            </article>
+            <article class="question-card">
+              <span>04</span>
+              <h3>Is urban land supply a capital-formation bottleneck?</h3>
+              <p>
+                Real estate is not a side market. Housing, infrastructure, and
+                construction are part of the capital stock that lets workers move,
+                firms scale, and cities compound.
+              </p>
+              <p class="q-read"><span>Read</span>
+                <a href="https://www.astralcodexten.com/p/your-book-review-progress-and-poverty" target="_blank" rel="noreferrer">Henry George's <em>Progress and Poverty</em>, via the Astral Codex Ten review</a>
+              </p>
+            </article>
+            <article class="question-card">
+              <span>05</span>
+              <h3>What does a resisted rise change?</h3>
+              <p>
+                Japan, Korea, Taiwan, and China climbed with varying degrees of
+                external assistance and openness. India may need more indigenous
+                technology capacity because the next ascent is more contested.
+              </p>
+              <p class="q-read"><span>Read</span>
+                <a href="https://groveatlantic.com/book/how-asia-works/" target="_blank" rel="noreferrer">Joe Studwell, <em>How Asia Works</em></a>
+              </p>
+            </article>
+            <article class="question-card">
+              <span>06</span>
+              <h3>Can trust compound like capital?</h3>
+              <p>
+                Trust lowers transaction costs. A modern judiciary, predictable
+                regulation, and credible state capacity are not moral garnish.
+                They are productivity infrastructure.
+              </p>
+              <p class="q-read"><span>Read</span>
+                <a href="https://ourworldindata.org/trust" target="_blank" rel="noreferrer">Our World in Data on trust</a>
+              </p>
+            </article>
+          </div>
+
+          <section class="discussion-strip">
+            <div>
+              <p class="provocation">
+                India is not trying to buy a developed-country label. It is trying
+                to make labour, capital, and productivity reinforce each other
+                fast enough before demographics stop being generous.
+              </p>
+            </div>
+            <button class="ghost-button" type="button" data-tab-target="primer">
+              Return to the calculator
+            </button>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-shell lfe-footer">
+      <span>Learn For Everybody &middot; an Econ For Everybody project</span>
+      <span class="ethos">Built to be argued with.</span>
+      <span>Open code (MIT): <a href="https://github.com/ashishefe/lfe-india-development">github.com/ashishefe/lfe-india-development</a></span>
+    </footer>
+
+    <aside class="equation-drawer" id="equationDrawer" aria-hidden="true" aria-labelledby="equationTitle">
+      <div class="drawer-backdrop" data-close-equations></div>
+      <section class="drawer-panel" role="dialog" aria-modal="false">
+        <div class="drawer-header">
+          <div>
+            <h2 id="equationTitle">Show the arithmetic</h2>
+          </div>
+          <button class="icon-button" type="button" aria-label="Close arithmetic panel" data-close-equations>
+            x
+          </button>
+        </div>
+
+        <div class="mode-switch" role="tablist" aria-label="Equation explanation mode">
+          <button class="mode-button is-active" type="button" data-equation-mode="eli5" role="tab" aria-selected="true">
+            Simple
+          </button>
+          <button class="mode-button" type="button" data-equation-mode="formal" role="tab" aria-selected="false">
+            Equations
+          </button>
+        </div>
+
+        <div class="equation-mode is-active" data-equation-panel="eli5">
+          <p>
+            Imagine a school sports day where the finish line slowly moves away
+            every minute. India is running toward high-income status, but the
+            high-income line itself rises over time because rich-country prices
+            rise. Standing still is falling behind; jogging may also be falling
+            behind if the line is moving quickly enough.
+          </p>
+          <p>
+            Now add a currency counter. India produces in rupees, but the
+            scoreboard is in dollars. Real growth is the extra goods and services
+            produced. Inflation raises the rupee sticker price of that output.
+            Rupee depreciation subtracts from the dollar value. Population growth
+            spreads the total across more people. The calculator simply asks:
+            after all four effects, how fast is dollar income per Indian rising?
+          </p>
+          <p>
+            A kitchen analogy helps. Real growth is more food. Inflation is
+            higher menu prices. Rupee depreciation is the exchange counter giving
+            fewer dollars for the same rupees. Population growth is more plates
+            at the table. High-income status is reached only when food per plate,
+            translated at the exchange counter, catches the moving benchmark.
+          </p>
+          <p>
+            One trap to avoid: inflation sits in the recipe, so does raising
+            menu prices make the kitchen richer? Only on paper, and only if the
+            exchange counter is asleep. What usually happens is the pair moves
+            together — prices up 4%, rupee down 2% — so the meal gets 2% dearer
+            each year in dollars, which in the baseline is exactly how fast the
+            finish line itself walks away. Nothing gained. The honest way to
+            gain ground is the boring one: cook more food per plate.
+          </p>
+          <p class="quiet-note">
+            The model is a teaching instrument, not a forecast. Its job is to
+            make the moving parts visible enough that a student can argue with
+            the assumptions instead of merely accepting the headline.
+          </p>
+        </div>
+
+        <div class="equation-mode" data-equation-panel="formal" hidden>
+          <h3>Where does the equation come from?</h3>
+          <p>
+            It is not a fitted model. It is an accounting translation, done in
+            three divisions. Write India's dollar income per person in year t as
+          </p>
+
+          <div class="formula-card">
+            <div class="formula">
+              <span>y<sub>t</sub></span>
+              <span>=</span>
+              <span class="fraction">
+                <span>Y<sub>t</sub> &times; P<sub>t</sub></span>
+                <span>E<sub>t</sub> &times; N<sub>t</sub></span>
+              </span>
+            </div>
+            <p class="formula-note">
+              y<sub>t</sub> is <strong>nominal GDP per person, in dollars</strong>
+              &mdash; the number the scoreboard tracks. (The case convention:
+              capital letters are country totals; lowercase y is the per-person
+              figure.) On the right: Y<sub>t</sub> is real GDP (goods and
+              services at constant prices). P<sub>t</sub> is the price level,
+              so Y &times; P is nominal rupee GDP &mdash; the P is what makes
+              this nominal rather than real. E<sub>t</sub> is the exchange rate
+              in rupees per dollar: dividing converts rupees to dollars.
+              N<sub>t</sub> is population: dividing converts a country total
+              into a per-person figure.
+            </p>
+          </div>
+
+          <p>
+            Each piece grows at its own rate: Y at g<sub>real</sub>, P at
+            &pi;, E at d<sub>rupee</sub>, N at n. Take the ratio of one year to
+            the previous and the levels drop out, leaving only growth rates:
+          </p>
+
+          <div class="formula-card">
+            <p class="formula-label">Exact growth conversion</p>
+            <div class="formula">
+              <span>1 + g<sub>USD,pc</sub></span>
+              <span>=</span>
+              <span class="fraction">
+                <span>(1 + g<sub>real</sub>)(1 + &pi;)</span>
+                <span>(1 + d<sub>rupee</sub>)(1 + n)</span>
+              </span>
+            </div>
+          </div>
+
+          <div class="formula-card">
+            <p class="formula-label">Useful classroom approximation</p>
+            <div class="formula">
+              <span>g<sub>USD,pc</sub></span>
+              <span>&asymp;</span>
+              <span>g<sub>real</sub> + &pi; - d<sub>rupee</sub> - n</span>
+            </div>
+            <p class="formula-note">
+              Multiplying (1 + a)(1 + b) creates a small cross-term a&times;b
+              that the addition ignores. At Indian magnitudes the gap is real:
+              the baseline sliders give 9.06% exactly but 9.0% by addition —
+              about a tenth of a point a year. Over two decades that pulls the
+              crossing a little earlier, not later. The model uses the exact
+              form. Where its dates differ from the article's ladder (9% &rarr;
+              2047, 8% &rarr; 2051, 7% &rarr; 2055, 6% &rarr; 2062), the cause
+              is the starting income each rung implies, not the shortcut.
+            </p>
+          </div>
+
+          <dl class="formula-definitions">
+            <div>
+              <dt>y<sub>t</sub></dt>
+              <dd>
+                Nominal GDP per person in dollars, in year t — the level the
+                scoreboard tracks, and the left side of the crossing test
+                below.
+              </dd>
+            </div>
+            <div>
+              <dt>g<sub>USD,pc</sub></dt>
+              <dd>
+                The output of the whole conversion: annual growth of nominal
+                dollar GDP per person — the pace the scoreboard sees.
+              </dd>
+            </div>
+            <div>
+              <dt>g<sub>real</sub></dt>
+              <dd>Growth in real GDP: more actual output.</dd>
+            </div>
+            <div>
+              <dt>&pi;</dt>
+              <dd>Domestic inflation: higher rupee prices for that output.</dd>
+            </div>
+            <div>
+              <dt>d<sub>rupee</sub></dt>
+              <dd>
+                Rupee depreciation against the dollar: the annual rise in E,
+                the rupees-per-dollar rate. A weaker rupee shrinks dollar
+                income; appreciation would enter as a negative d.
+              </dd>
+            </div>
+            <div>
+              <dt>n</dt>
+              <dd>Population growth: more people sharing total GDP.</dd>
+            </div>
+          </dl>
+
+          <div class="formula-card">
+            <p class="formula-label">The inflation trap, resolved</p>
+            <p class="formula-note">
+              &pi; sits in the numerator, so does inflation make India richer in
+              dollars? Only if the rupee fails to give it back. The pair
+              &pi; &minus; d<sub>rupee</sub> is roughly how fast Indian prices
+              rise <em>measured in dollars</em> — real appreciation. The
+              baseline sets &pi; = 4 and d = 2, so dollar-measured Indian prices
+              rise 2% a year: exactly the pace the high-income line itself moves.
+              No ground gained through the currency channel; real growth does
+              all the work. East Asia's fast climbs were different — sustained
+              productivity booms pulled their dollar-measured prices up faster
+              than rich-world inflation (the Balassa&ndash;Samuelson effect),
+              so the currency channel helped. If you believe India's boom will
+              look East Asian, try d below 2 and watch the date move.
+            </p>
+          </div>
+
+          <div class="formula-card">
+            <p class="formula-label">Moving high-income line</p>
+            <div class="formula">
+              <span>H<sub>t</sub></span>
+              <span>=</span>
+              <span>H<sub>0</sub>(1 + g<sub>H</sub>)<sup>t</sup></span>
+            </div>
+            <p class="formula-note">
+              H<sub>0</sub> is the threshold in the base year (about $14,000;
+              the July 2026 update set it at $14,375). g<sub>H</sub> is its
+              growth rate, and t counts years from the base year. The World
+              Bank moves the line with rich-country inflation: from $6,000 in
+              1987 it has compounded at about 2.3% a year. The slider defaults
+              to the article's rounder 2% — try 2.3% and watch a “fixed” target
+              drift.
+            </p>
+          </div>
+
+          <p>
+            India crosses in the first year t when projected dollar GDP per
+            person, y<sub>t</sub>, is at least as large as the moving line:
+          </p>
+
+          <div class="formula-card">
+            <div class="formula">
+              <span>y<sub>t</sub></span>
+              <span>&ge;</span>
+              <span>H<sub>t</sub></span>
+            </div>
+          </div>
+
+          <div class="formula-card">
+            <p class="formula-label">Optional taper (the article's warning)</p>
+            <div class="formula">
+              <span>g<sub>real,t</sub></span>
+              <span>=</span>
+              <span>2.5 + (g<sub>0</sub> - 2.5) &times; s<sub>t</sub></span>
+            </div>
+            <p class="formula-note">
+              Constant growth for forty years is the model's most optimistic
+              assumption — the article itself warns that economies slow as they
+              approach the productivity frontier, where growth runs under 2.5%.
+              With the taper switched on, real growth glides from your slider
+              setting g<sub>0</sub> toward a 2.5% frontier pace in proportion to
+              the share of the income gap still remaining,
+              s<sub>t</sub> = (1 &minus; y<sub>t</sub>/H<sub>t</sub>) &frasl;
+              (1 &minus; y<sub>0</sub>/H<sub>0</sub>). The functional form is
+              one honest guess among many — the point is the shape, not the
+              decimals. Its lesson is the article's: growth you postpone is
+              growth you may not get.
+            </p>
+          </div>
+
+          <h3>Production lens</h3>
+          <div class="formula-card">
+            <div class="formula">
+              <span>Y / N</span>
+              <span>=</span>
+              <span>(L / N) &times; A f(K / L)</span>
+            </div>
+            <p class="formula-note">
+              Y is output, N population, L workers, K capital, A productivity.
+              f( ) is the production function: it turns capital per worker into
+              output per worker, rising but flattening — the tenth machine adds
+              less than the first. So output per worker is
+              Y / L = A &times; f(K / L), and income per person is workers per
+              person times output per worker.
+            </p>
+          </div>
+          <p>
+            This is why demographics matter. If the worker share, L / N, stops
+            rising, then output per worker, Y / L, must rise faster — and with
+            f( ) flattening, more of that burden lands on A: technology,
+            skills, and institutions.
+          </p>
+          <p>
+            In growth rates, the same identity reads: GDP growth &asymp; growth
+            in workers, plus the contribution of capital deepening, plus
+            productivity growth. That is what the engine's sliders are — each
+            one is a <em>contribution</em> in percentage points, already
+            weighted by how much that channel matters, not the raw growth rate
+            of workers or machines. The default 3.7 points from capital, at a
+            typical capital share near 0.4, quietly assumes capital per worker
+            compounding around 9% a year — a boom-time pace sustained for a
+            generation. That is the article's argument for credit
+            plumbing and urban land, made numerical.
+          </p>
+        </div>
+      </section>
+    </aside>
+
+    <script src="app.js"></script>
+  </body>
+</html>
